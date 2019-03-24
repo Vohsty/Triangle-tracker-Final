@@ -14,20 +14,32 @@
       <a href="index.html">HOME</a>  &nbsp; &nbsp;   <a href="equilateral.html"> EQUILATERAL</a>&nbsp; &nbsp;
       <a href="isosceles.html"> ISOSCELES</a> &nbsp;   &nbsp; <a href="scalene.html"> SCALENE</a>
     </div>
-    <div id="title">
-      <h1>TRIANGLE CALCULATOR</h1>
-      <h2>PLEASE ENTER THREE SIDES OF THE TRIANGLE</h2>
+
+    <div class="backimg">
+
+      <div id="title">
+        <h1 class="mainTitle">TRIANGLE CALCULATOR</h1>
+        <h2>PLEASE ENTER THREE SIDES OF THE TRIANGLE</h2>
+      </div>
+
+      <div style="display:none;" id="content" class="input">
+        SIDE1:<input type="text" name="Enter side 1" value="" id="a"> <br><br>
+        SIDE2:<input type="text" name="Enter side 1" value="" id="b"> <br><br>
+        SIDE3:<input type="text" name="Enter side 1" value="" id="c"> <br><br>
+
+        <button onclick="create(parseFloat(document.getElementById('a').value),parseFloat(document.getElementById('b').value)
+        ,parseFloat(document.getElementById('c').value))">SUBMIT</button>
+        <div class="text">
+          <p>A triangle is a closed three-sided, three-angled figure, and is the simplest example <br>
+            of what mathematicians call polygons (figures having many sides). Triangles are among <br>
+            the most important objects studied in mathematics owing to the rich mathematical theory <br>
+            built up around them in Euclidean geometry and trigonometry , and also to their applicability <br>
+            in such areas as astronomy, architecture, engineering, physics, navigation, and surveying.</p>
+        </div>
+
+      </div>
     </div>
 
-    <div style="display:none;" id="content" class="input">
-      SIDE1:<input type="text" name="Enter side 1" value="" id="a"> <br><br>
-      SIDE2:<input type="text" name="Enter side 1" value="" id="b"> <br><br>
-      SIDE3:<input type="text" name="Enter side 1" value="" id="c"> <br><br>
-
-      <button onclick="create(parseFloat(document.getElementById('a').value),parseFloat(document.getElementById('b').value)
-      ,parseFloat(document.getElementById('c').value))">SUBMIT</button>
-
-    </div>
 
   <script type="text/javascript">
 

@@ -11,6 +11,7 @@
 
 }
 #title {
+  color: #B2BEB5;
   text-align: center;
   animation-name: swip;
   animation-duration: 1s;
@@ -23,6 +24,29 @@
 .links {
   text-align: center;
   border: 2px;
-  margin-left: 20px
+  margin: 20px;
+  padding: 10px;
+  background-color: #008000;
+}
+.mainTitle{
+  font-family: "luma"
+}
+.text {
+  color: #B2BEB5;
+}
 
+body {
+  background-image: url("back5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.backimg {
+  text-align: center;
+  background-color: #5DADEC;
+  background:rgba(0,0,0,0.7);
+  width: 800px;
+  height: 1000px;
+  position: relative;
+  left: 200px;
 }

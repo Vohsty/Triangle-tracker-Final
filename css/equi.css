@@ -1,9 +1,46 @@
 .disc {
+  color: #FFF600;
   text-align: center;
+  position: relative;
+  left: 300px;
+  top: 170px;
+  border: 2px;
+  background:rgba(0,128,0,0.5);
+  padding: 10px;
+  width: 600px;
+  font-size: 110%;
+
 }
 .links2 {
   text-align: center;
   border: 2px;
-  margin-left: 20px
+  margin: 20px;
+  padding: 10px;
+  background-color: #008000;
 
+
+
+}
+body {
+  background-image: url("back7.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 900px;
+  padding: 0;
+  margin: 0px;
+
+}
+.slabs {
+  border-color: #008000;
+  background:rgba(0,128,0,0.3);
+  height: 600px;
+  width: 400px;
+  position: relative;
+  left: 150px;
+  top: 100px;
+}
+.triImg {
+  position: relative;
+  top: 200px;
+  left: 350px;
 }
