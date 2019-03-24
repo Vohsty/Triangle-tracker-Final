@@ -18,6 +18,7 @@ HTML
 javascript
 
 ##Legal
+
 Copyright (c) 2018, Steve Kimanthi
 
 This projected is licensed under the terms of the MIT license.
