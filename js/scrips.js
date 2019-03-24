@@ -1,7 +1,7 @@
 
 function create(a,b,c) {
   if (a+b>c && c+b>a && a+c>b && a==b && b==c)
-  alert ("Equilateral triangle")
+      alert("equi")
   else if (a+b>c && c+b>a && a+c>b && a==b || b==c || a==c)
     alert("isoscelese")
   else if (a+b>c && c+b>a && a+c>b && a!=b!=c)
@@ -9,5 +9,3 @@ function create(a,b,c) {
     else
     alert("Wacha ujinga")
     }
-
-  

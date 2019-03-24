@@ -4,10 +4,18 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script src="js/scrips.js" charset="utf-8"></script>
     <title></title>
+
   </head>
-  <body>
-    <div id="loading-bar-spinner" class="spinner"><div class="spinner-icon"></div></div>
-    <div class="input">
+  <body onload="myLoad()">
+    <div id="loader">
+      <img src="load.gif" alt="" width="100%" height="800px">
+    </div>
+    <div id="title">
+      <h1>TRIANGLE CALCULATOR</h1>
+      <h2>PLEASE ENTER THREE SIDES OF THE TRIANGLE</h2>
+    </div>
+
+    <div style="display:none;" id="content" class="input">
       SIDE1:<input type="text" name="Enter side 1" value="" id="a"> <br><br>
       SIDE2:<input type="text" name="Enter side 1" value="" id="b"> <br><br>
       SIDE3:<input type="text" name="Enter side 1" value="" id="c"> <br><br>
@@ -16,5 +24,18 @@
       ,parseFloat(document.getElementById('c').value))">SUBMIT</button>
 
     </div>
+
+  <script type="text/javascript">
+
+    function myLoad(){
+      var test = setTimeout(loadpage,3000)
+
+    }
+    function loadpage(){
+      document.getElementById("content").style.display = "block";
+      document.getElementById("loader").style.display = "none";
+    }
+  </script>
   </body>
+
 </html>
