@@ -1,11 +1,10 @@
 .disc {
-  color: #FFF600;
+  color:  #008000;
   text-align: center;
   position: relative;
-  left: 300px;
-  top: 170px;
+  left: 320px;
+  top: 100px;
   border: 2px;
-  background:rgba(0,128,0,0.5);
   padding: 10px;
   width: 600px;
   font-size: 110%;
@@ -22,7 +21,7 @@
 
 }
 body {
-  background-image: url("back7.jpg");
+  background-image: url("back9.jpg");
   background-size:cover;
   background-repeat: no-repeat;
   height: 900px;
@@ -42,5 +41,5 @@ body {
 .triImg {
   position: relative;
   top: 200px;
-  left: 350px;
+  left: 500px;
 }

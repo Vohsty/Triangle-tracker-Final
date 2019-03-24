@@ -6,10 +6,10 @@ function create(a,b,c) {
 
   else if (a+b>c && c+b>a && a+c>b && a==b || b==c || a==c)
     isosceles();
-    
+
   else if (a+b>c && c+b>a && a+c>b && a!=b!=c)
 
-    alert("scalene");
+    scalene();
     else
     alert("Wacha ujinga");
     }
@@ -19,5 +19,9 @@ function equi() {
 }
 function isosceles() {
   window.location = "isosceles.html";
+
+}
+function scalene() {
+  window.location = "scalene.html";
 
 }
