@@ -20,3 +20,9 @@
   from{bottom: -100px;opacity: 0;}
     to{bottom: 0px;opacity: 1;}
 }
+.links {
+  text-align: center;
+  border: 2px;
+  margin-left: 20px
+
+}

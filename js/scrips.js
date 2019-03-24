@@ -1,12 +1,19 @@
 
 function create(a,b,c) {
   if (a+b>c && c+b>a && a+c>b && a==b && b==c)
-      window.location = "equilateral.html"
-      
+
+      equi();
+
   else if (a+b>c && c+b>a && a+c>b && a==b || b==c || a==c)
-    alert("isoscelese")
+
+    alert("scalene");
   else if (a+b>c && c+b>a && a+c>b && a!=b!=c)
-    alert("scalene")
+
+    alert("scalene");
     else
-    alert("Wacha ujinga")
+    alert("Wacha ujinga");
     }
+function equi() {
+  window.location = "equilateral.html";
+
+}
