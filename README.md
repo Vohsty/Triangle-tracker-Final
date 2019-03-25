@@ -7,7 +7,7 @@ This is an application that determines if a set of three values can form a trian
 
 - A running network connection to the internet
 - A web browser
-- This link  https://vohsty.github.io/triangle-tracker/
+- This link  https://vohsty.github.io/Triangle-tracker-Final/
 
 ## Deployment
 
