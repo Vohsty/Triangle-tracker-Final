@@ -14,7 +14,7 @@
   color: #B2BEB5;
   text-align: center;
   animation-name: swip;
-  animation-duration: 1s;
+  animation-duration: 5s;
   position: relative;
 }
 @keyframes swip {
@@ -45,6 +45,7 @@ body {
   text-align: center;
   background-color: #5DADEC;
   background:rgba(0,0,0,0.7);
+  width: 800px;0.7);
   width: 800px;
   height: 1000px;
   position: relative;
