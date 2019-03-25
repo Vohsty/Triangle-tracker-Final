@@ -11,8 +11,9 @@ function create(a,b,c) {
 
     scalene();
     else
-    alert("Wacha ujinga");
+    alert("THE SIDES YOU HAVE ENTERED CANNOT FORM A TRIANGLE. ");
     }
+
 function equi() {
   window.location = "equilateral.html";
 
